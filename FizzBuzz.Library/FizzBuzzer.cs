@@ -11,7 +11,7 @@
             }
 
 
-            if (input == 5)
+            if (input % 5 == 0)
             {
                 return "Buzz";
             }
