@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD_FizzBuzz", "TDD_FizzBuzz\TDD_FizzBuzz.csproj", "{1706835F-EE74-4D91-83CD-5385D1604B79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Library", "FizzBuzz.Library\FizzBuzz.Library.csproj", "{CDA2BCB8-EDEA-497D-87B2-8B64B69C5D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Library.Tests", "FizzBuzz.Library.Tests\FizzBuzz.Library.Tests.csproj", "{5803942A-D37F-48A7-A634-5B27B1E782CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1706835F-EE74-4D91-83CD-5385D1604B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1706835F-EE74-4D91-83CD-5385D1604B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1706835F-EE74-4D91-83CD-5385D1604B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA2BCB8-EDEA-497D-87B2-8B64B69C5D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA2BCB8-EDEA-497D-87B2-8B64B69C5D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA2BCB8-EDEA-497D-87B2-8B64B69C5D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA2BCB8-EDEA-497D-87B2-8B64B69C5D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5803942A-D37F-48A7-A634-5B27B1E782CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5803942A-D37F-48A7-A634-5B27B1E782CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5803942A-D37F-48A7-A634-5B27B1E782CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5803942A-D37F-48A7-A634-5B27B1E782CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
