@@ -8,7 +8,7 @@ namespace FizzBuzz.Library.Tests
 
         //Default case
         [Test] public void Buzzer_WhenDefault_ReturnsInput(
-            [Values(1,2,4)] int input)
+            [Values(1,2,4,7,8)] int input)
         {
             
             //Act
@@ -20,7 +20,7 @@ namespace FizzBuzz.Library.Tests
 
         [Test]
         public void Buzzer_When3_ReturnsFizz(
-            [Values(3,6)] int input)
+            [Values(3,6,9)] int input)
         {
       
             //Act
@@ -31,11 +31,11 @@ namespace FizzBuzz.Library.Tests
         }
 
         [Test]
-        public void Buzzer_When5_ReturnsBuzz()
+        public void Buzzer_When5_ReturnsBuzz(
+          [Values(5,10)] int input  )
         {
-            //Arrange
-            int input = 5;
-
+            
+            
             //Act
             string output = FizzBuzzer.GetValue(input);
 
