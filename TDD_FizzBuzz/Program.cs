@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FizzBuzz.Library;
+using System;
 
 namespace TDD_FizzBuzz
 {
@@ -10,7 +7,13 @@ namespace TDD_FizzBuzz
     {
         static void Main(string[] args)
         {
-           
+            for (int i = 1; i <= 100; i++)
+            {
+                Console.WriteLine(
+                    FizzBuzzer.GetValue(i));
+                
+            }
+            Console.ReadKey();
         }
     }
 }

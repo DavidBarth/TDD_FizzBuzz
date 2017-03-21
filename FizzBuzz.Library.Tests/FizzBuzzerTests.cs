@@ -8,7 +8,7 @@ namespace FizzBuzz.Library.Tests
 
         //Default case
         [Test] public void Buzzer_WhenDefault_ReturnsInput(
-            [Values(1,2,4,7,8,11,13,14)] int input)
+            [Values(1,2,4,7,8,11,13,14,16,17,19)] int input)
         {
             
             //Act
@@ -20,7 +20,7 @@ namespace FizzBuzz.Library.Tests
 
         [Test]
         public void Buzzer_WhenDivisibleBy3_ReturnsFizz(
-            [Values(3,6,9,12)] int input)
+            [Values(3,6,9,12,18)] int input)
         {
       
             //Act
@@ -32,7 +32,7 @@ namespace FizzBuzz.Library.Tests
 
         [Test]
         public void Buzzer_WhenDivisibleBy5_ReturnsBuzz(
-          [Values(5,10)] int input  )
+          [Values(5,10,20)] int input  )
         {
             
             
