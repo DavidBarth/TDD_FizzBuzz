@@ -1,12 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FizzBuzz.Library
 {
+    //Class representing the FizzBuzzer object that is under test
     public class FizzBuzzer
     {
+        public static string GetValue(int input)
+        {
+            return input.ToString();
+        }
+
+       
     }
 }
